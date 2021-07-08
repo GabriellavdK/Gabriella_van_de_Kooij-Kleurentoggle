@@ -2,24 +2,38 @@ body {
   font-family: "Roboto";
   font-size: 25px;
 }
-body .image-button {
+body .menu {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr 1fr;
+  grid-template-rows: 1;
+  grid-template-areas: " menu . header . ";
+}
+body .menu .image-button {
+  grid-area: menu;
   width: 100px;
 }
-body .image-button:hover {
+body .menu .image-button:hover {
   cursor: pointer;
 }
-body .menu-items ul {
+body .menu .text {
+  grid-area: header;
+  text-align: center;
+  text-shadow: 1px 1px 3px #222;
+  color: white;
+}
+body .menu-items {
   list-style: none;
+  cursor: pointer;
   margin-top: 0;
   margin-left: -30px;
   width: 300px;
 }
-body .menu-items ul li {
+body .menu-items li {
   padding: 10px;
   border: 2px solid white;
   margin-bottom: 5px;
 }
-body .menu-items ul li input {
+body .menu-items li input {
   margin-right: 15px;
 }
 
