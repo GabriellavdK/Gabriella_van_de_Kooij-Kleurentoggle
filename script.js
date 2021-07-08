@@ -20,7 +20,8 @@ clickButton.addEventListener('click', function(){
 })
 
 
-// Helaas krijg ik de hover functie niet goed werkbaar omdat het menu verdwijnt wanneer je 
+// Helaas krijg ik de hover functie niet goed werkbaar omdat het menu verdwijnt wanneer je met de muis richting de lijst gaat. Daarom heb ik deze maar gelaten voor wat het was.
+// Mocht je hier een tip voor hebben, dan hoor ik het graag :) 
 
 // clickButton.addEventListener('mouseover', function(){
 // 	menu.classList.toggle("visibility");
